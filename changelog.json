@@ -1,0 +1,13 @@
+{
+  "version": "v1.0.0",
+  "date": "2025-10-10",
+  "notes": [
+    "Initial release of Pulsepoint — Bill Payment Plugin.",
+    "Added Data top-up module.",
+    "Added Airtime recharge module.",
+    "Added Cable TV subscription module.",
+    "Added Electricity bill payment module.",
+    "Integrated API support for Data top-up.",
+    "Integrated API support for Airtime recharge."
+  ]
+}
