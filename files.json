@@ -1,0 +1,5 @@
+[
+  { "purchase_code": "ABC-123-XYZ", "used": false },
+  { "purchase_code": "DEF-456-UVW", "used": false },
+  { "purchase_code": "GHI-789-LMN", "used": false }
+]
