@@ -22,5 +22,16 @@
       "Enhanced plugin loading speed and stability.",
       "Updated developer info and support contact."
     ]
+  },
+  {
+    "version": "v1.0.2",
+    "date": "2025-10-10",
+    "notes": [
+      "Fixed SQL injection and XSS vulnerabilities in admin forms.",
+      "Improved error log reader for better compatibility.",
+      "Added secure license activation system.",
+      "Enhanced plugin loading speed and stability.",
+      "Updated developer info and support contact."
+    ]
   }
 ]
