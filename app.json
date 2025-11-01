@@ -1,37 +1,9 @@
-import fs from "fs";
-import path from "path";
-
-const filePath = path.join(process.cwd(), "files.json");
-
-export default function handler(req, res) {
-  const { purchase_code } = req.query;
-
-  if (!purchase_code) {
-    return res.status(400).json({ error: "Purchase code required" });
-  }
-
-  try {
-    // Load licenses
-    const licenses = JSON.parse(fs.readFileSync(filePath, "utf8"));
-
-    // Find the license
-    const license = licenses.find(l => l.purchase_code === purchase_code);
-
-    if (!license) {
-      return res.status(404).json({ error: "Invalid purchase code" });
-    }
-
-    if (!license.used) {
-      // Mark as used
-      license.used = true;
-      fs.writeFileSync(filePath, JSON.stringify(licenses, null, 2));
-
-      return res.status(200).json({ purchase_code: license.purchase_code });
-    } else {
-      return res.status(403).json({ error: "This purchase code has already been used" });
-    }
-  } catch (error) {
-    console.error(error);
-    return res.status(500).json({ error: "Server error" });
-  }
+{
+  "premium_domains": [
+    "thecreatordev.xyz",
+    "pulsepointplugin.xyz",
+    "paymentpoint.ng",
+    "mydevlab.net"
+  ],
+  "warning": "This plugin is restricted to premium verified domains only."
 }
