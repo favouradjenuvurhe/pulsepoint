@@ -4,7 +4,7 @@
   "version": "1.0.2",
   "author": "Favour Adjenuvurhe",
   "homepage": "https://pulsepoint-plugin.vercel.app",
-  "download_url": "#",
+  "download_url": "https://github.com/favouradjenuvurhe/pulsepoint/releases/download/1.0.2/pulsepoint-bill-payment.zip",
   "description": "Bills payment plugin for Data, Airtime, Cable TV, Electricity — built for WordPress.",
   "new_version": "1.0.2"
 }
