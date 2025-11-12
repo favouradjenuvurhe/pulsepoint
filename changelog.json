@@ -33,5 +33,15 @@
       "Enhanced plugin loading speed and stability.",
       "Updated developer info and support contact."
     ]
+  },
+  {
+  "version": "v1.0.9",
+  "date": "2025-11-12",
+  "notes": [
+    "Restricted plugin update to only overwrite dashboard.php in theme/default/.",
+    "Improved update safety and integrity validation.",
+    "Optimized plugin upgrader hooks for better performance.",
+    "Minor internal enhancements for version control handling."
+  ]
   }
 ]
